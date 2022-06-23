@@ -70,6 +70,18 @@ $ bash TNIP_CC_WEB.sh
 ~~~~
 If you want to try other extract options, please refer to `args.py`.
 
+### Evaluate CDVA Retreival
+To check out experiments, you can evaluate our retrieval csv file.
+
+* [FIVR5K Result file](https://drive.google.com/file/d/1IPd583iXBjfUH30VcFnllo0XAk_68byX/view?usp=sharing)
+* [FIVR200K Result file](https://drive.google.com/file/d/1icnqmsGzT5OZR5VDXSWi79aFXaJ7bWrn/view?usp=sharing)
+* [CC_WEB Result file](https://drive.google.com/file/d/1CG22XKlNnLSVFfaH-ORxnDT5jbRzFCad/view?usp=sharing)
+
+~~~~
+$ python calculate_performance_fivr.py
+$ python calculate_performance_cc_web_video.py
+~~~~
+
 ## Experiments
 
 ### FIVR5K
@@ -85,6 +97,8 @@ If you want to try other extract options, please refer to `args.py`.
 | SCFV+NIP<sub>256</sub>       | 0.813 | 0.781 | 0.673 |
 | **SCFV+TNIP<sub>256</sub>**       | **0.880** | **0.862** | **0.744** |
 
+* [Result file](https://drive.google.com/file/d/1IPd583iXBjfUH30VcFnllo0XAk_68byX/view?usp=sharing)
+
 
 ### FIVR200K (Additional Benchmark)
 
@@ -99,6 +113,7 @@ If you want to try other extract options, please refer to `args.py`.
 | SCFV+NIP<sub>256</sub>      | 0.819 | 0.764 | 0.622 |
 | **SCFV+TNIP<sub>256</sub>**       | **0.896** | **0.833** | **0.674** |
 
+* [Result file](https://drive.google.com/file/d/1icnqmsGzT5OZR5VDXSWi79aFXaJ7bWrn/view?usp=sharing)
 
 ### CC_WEB_VIDEO
 
@@ -115,6 +130,8 @@ If you want to try other extract options, please refer to `args.py`.
 | TCA<sub>sym</sub>       | 0.982 | 0.962 | 0.992 | 0.981 |
 | SCFV+NIP<sub>256</sub>       | 0.973 | 0.953 | 0.976 | 0.959 |
 | **SCFV+TNIP<sub>256</sub>**       | **0.978** | **0.969** | **0.983** | **0.975** |
+
+* [Result file](https://drive.google.com/file/d/1CG22XKlNnLSVFfaH-ORxnDT5jbRzFCad/view?usp=sharing)
 
 ## References
 We referenced the repos below for the code.
