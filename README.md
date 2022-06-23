@@ -71,11 +71,20 @@ $ bash TNIP_CC_WEB.sh
 If you want to try other extract options, please refer to `args.py`.
 
 ### Evaluate CDVA Retreival
+
+#### Data Preparing
+
+Annotation files can be download from
+
+1. [FIVR Annotation](https://drive.google.com/file/d/1raMkthLdxhnWbZGC-JnrcIipB3KzigA9/view?usp=sharing)
+
+2. [CC_WEB Annotation](https://drive.google.com/file/d/11DozzzM4IN5f3QwIq8xT9Q8cBWy5QFLe/view?usp=sharing)
+
 To check out experiments, you can evaluate our retrieval csv file.
 
-* [FIVR5K Result file](https://drive.google.com/file/d/1IPd583iXBjfUH30VcFnllo0XAk_68byX/view?usp=sharing)
-* [FIVR200K Result file](https://drive.google.com/file/d/1icnqmsGzT5OZR5VDXSWi79aFXaJ7bWrn/view?usp=sharing)
-* [CC_WEB Result file](https://drive.google.com/file/d/1CG22XKlNnLSVFfaH-ORxnDT5jbRzFCad/view?usp=sharing)
+* [FIVR5K](https://drive.google.com/file/d/1IPd583iXBjfUH30VcFnllo0XAk_68byX/view?usp=sharing)
+* [FIVR200K](https://drive.google.com/file/d/1icnqmsGzT5OZR5VDXSWi79aFXaJ7bWrn/view?usp=sharing)
+* [CC_WEB](https://drive.google.com/file/d/1CG22XKlNnLSVFfaH-ORxnDT5jbRzFCad/view?usp=sharing)
 
 ~~~~
 $ python calculate_performance_fivr.py
