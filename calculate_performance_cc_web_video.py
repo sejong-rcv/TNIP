@@ -161,9 +161,9 @@ def mkdir(path):
 
 if __name__=="__main__":
 
-    source = ["../arxiv_cdva/cc_web_video_tnip/scfv+nip/csv/retrieval/q256_iDB/scfv+nip/R2_1D_base/cc_web_video_retrieve_queries.256K.csv"]
+    source = ["cc_web_video_retrieve_queries.256K.csv"]
 
-    ann_path = "/data5/datasets/cc_web_video/annotation/cc_web_video_annotation.pickle"
+    ann_path = "cc_web_video_annotation.pickle"
 
     f = open(ann_path, "rb")
     ann = pickle.load(f)
@@ -203,10 +203,10 @@ if __name__=="__main__":
             with open(save_txt_path, 'w') as f:
                 f.writelines(result_mapatn_all_cleaned)
 
-            # save_txt_path = os.path.join(curr_path, "mAP@N_normalized_by_{}.txt".format(nf))
-            # with open(save_txt_path, 'w') as f:
-            #     f.writelines(result_mapatn)
+            save_txt_path = os.path.join(curr_path, "mAP@N_normalized_by_{}.txt".format(nf))
+            with open(save_txt_path, 'w') as f:
+                f.writelines(result_mapatn)
 
-            # save_txt_path = os.path.join(curr_path, "mAP@N_normalized_by_{}_cleaned.txt".format(nf))
-            # with open(save_txt_path, 'w') as f:
-            #     f.writelines(result_mapatn_cleaned)
+            save_txt_path = os.path.join(curr_path, "mAP@N_normalized_by_{}_cleaned.txt".format(nf))
+            with open(save_txt_path, 'w') as f:
+                f.writelines(result_mapatn_cleaned)
