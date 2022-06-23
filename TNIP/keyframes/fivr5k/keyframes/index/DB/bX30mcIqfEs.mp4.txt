@@ -1,0 +1,7 @@
+Shot 0:9,
+Shot 1:153,
+Shot 2:378,
+Shot 3:495,
+Shot 4:1044,
+Shot 5:1152,
+Shot 6:1539,
