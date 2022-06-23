@@ -193,10 +193,10 @@ def mkdir(path):
 
 if __name__=="__main__":
  
-    source = ["../arxiv_cdva/fivr5k_tnip/scfv+nip/csv/retrieval/q256_iDB/scfv+nip/R2_1D_base/fivr5k_retrieve_queries.256K.csv",
-            "../arxiv_cdva/fivr200k_tnip/scfv+nip/csv/retrieval/q256_iDB/scfv+nip/R2_1D_base/fivr200k_retrieve_queries.256K.csv"]
+    source = ["fivr5k_retrieve_queries.256K.csv",
+            "fivr200k_retrieve_queries.256K.csv"]
 
-    ann_path = "/data3/datasets/fivr/annotation/fivr_annotation.pickle"
+    ann_path = "fivr_annotation.pickle"
 
     f = open(ann_path, "rb")
     ann = pickle.load(f)
