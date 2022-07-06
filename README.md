@@ -7,7 +7,7 @@
 <img src="https://user-images.githubusercontent.com/46413594/154407230-eae08576-8a06-40de-b211-0e10f125b3b3.png" width="700">
 
 > **Exploring the Temporal Cues to Enhance Video Retrieval on Standardized CDVA**<br>
-> Jo won (Sejong Univ.), GeunTaek Lim (Sejong Univ.), Joonsoo Kim (ETRI), Joungil Yun (ETRI), and Yukyung Choi (Sejong Univ.)
+> Won Jo (Sejong Univ.), Geuntaek Lim (Sejong Univ.), Joonsoo Kim (ETRI), Joungil Yun (ETRI), and Yukyung Choi (Sejong Univ.)
 >
 > **Paper**: [Exploring the Temporal Cues to Enhance Video Retrieval on Standardized CDVA](https://ieeexplore.ieee.org/document/9754362) 
 >
