@@ -151,3 +151,17 @@ We referenced the repos below for the code.
 
 ## Contact
 If you have any question or comment, please contact using the issue.
+
+## Citation
+
+```
+@article{jo2022exploring,
+  title={Exploring the Temporal Cues to Enhance Video Retrieval on Standardized CDVA},
+  author={Jo, Won and Lim, Guentaek and Kim, Joonsoo and Yun, Joungil and Choi, Yukyung},
+  journal={IEEE Access},
+  volume={10},
+  pages={38973--38981},
+  year={2022},
+  publisher={IEEE}
+}
+```
